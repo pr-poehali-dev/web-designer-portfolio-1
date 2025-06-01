@@ -97,7 +97,7 @@ const HeroSection = () => {
                       UI/UX Design
                     </div>
                     <div className="premium-text text-xs text-gray-500">
-                      5+ Years
+                      5+ лет
                     </div>
                   </div>
                 </div>
