@@ -32,7 +32,7 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-purple-900">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-['Montserrat']">
