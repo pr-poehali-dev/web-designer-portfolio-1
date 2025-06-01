@@ -32,13 +32,13 @@ const ContactSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-[#111827]">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 font-['Montserrat']">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-['Montserrat']">
             Свяжитесь со мной
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-['Open_Sans']">
+          <p className="text-xl text-gray-700 max-w-3xl mx-auto font-['Open_Sans']">
             Готова обсудить ваш проект и найти лучшие дизайн-решения
           </p>
         </div>
@@ -46,9 +46,9 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Info */}
           <div className="space-y-8">
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white">
+            <Card className="bg-black/20 backdrop-blur-sm border-gray-300/30 text-gray-900">
               <CardHeader>
-                <CardTitle className="text-2xl text-white">
+                <CardTitle className="text-2xl text-gray-900">
                   Контактная информация
                 </CardTitle>
               </CardHeader>
@@ -63,7 +63,9 @@ const ContactSection = () => {
                       />
                     </div>
                     <div>
-                      <h4 className="font-medium text-white">{item.title}</h4>
+                      <h4 className="font-medium text-gray-900">
+                        {item.title}
+                      </h4>
                       {item.link ? (
                         <a
                           href={item.link}
@@ -72,7 +74,7 @@ const ContactSection = () => {
                           {item.value}
                         </a>
                       ) : (
-                        <p className="text-gray-300">{item.value}</p>
+                        <p className="text-gray-600">{item.value}</p>
                       )}
                     </div>
                   </div>
@@ -81,9 +83,9 @@ const ContactSection = () => {
             </Card>
 
             {/* Social Links */}
-            <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+            <Card className="bg-black/20 backdrop-blur-sm border-gray-300/30">
               <CardHeader>
-                <CardTitle className="text-xl text-white">
+                <CardTitle className="text-xl text-gray-900">
                   Социальные сети
                 </CardTitle>
               </CardHeader>
@@ -94,7 +96,7 @@ const ContactSection = () => {
                       key={index}
                       variant="outline"
                       size="icon"
-                      className="border-white/30 text-white hover:bg-purple-600 hover:border-purple-600"
+                      className="border-gray-400/50 text-gray-900 hover:bg-purple-600 hover:border-purple-600 hover:text-white"
                       asChild
                     >
                       <a href={social.url}>
@@ -108,9 +110,9 @@ const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+          <Card className="bg-black/20 backdrop-blur-sm border-gray-300/30">
             <CardHeader>
-              <CardTitle className="text-2xl text-white">
+              <CardTitle className="text-2xl text-gray-900">
                 Написать сообщение
               </CardTitle>
             </CardHeader>
@@ -118,51 +120,51 @@ const ContactSection = () => {
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
                       Имя
                     </label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
+                      className="w-full px-4 py-3 bg-white/80 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-purple-400 focus:outline-none"
                       placeholder="Ваше имя"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-gray-300 mb-2">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
                       Email
                     </label>
                     <input
                       type="email"
-                      className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
+                      className="w-full px-4 py-3 bg-white/80 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-purple-400 focus:outline-none"
                       placeholder="your@email.com"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     Тема
                   </label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
+                    className="w-full px-4 py-3 bg-white/80 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-purple-400 focus:outline-none"
                     placeholder="Тема сообщения"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-gray-300 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
                     Сообщение
                   </label>
                   <textarea
                     rows={5}
-                    className="w-full px-4 py-3 bg-white/10 border border-white/30 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none resize-none"
+                    className="w-full px-4 py-3 bg-white/80 border border-gray-300 rounded-lg text-gray-900 placeholder-gray-500 focus:border-purple-400 focus:outline-none resize-none"
                     placeholder="Расскажите о вашем проекте..."
                   ></textarea>
                 </div>
 
                 <Button className="w-full bg-purple-600 hover:bg-purple-700 text-white py-3">
-                  <Icon name="Send" size={20} />
+                  <Icon name="Send" size={20} className="text-white" />
                   Отправить сообщение
                 </Button>
               </form>
