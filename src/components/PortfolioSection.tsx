@@ -11,7 +11,7 @@ const PortfolioSection = () => {
       description: "Редизайн интернет-магазина с увеличением конверсии на 45%",
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tags: ["UI/UX", "E-commerce", "Mobile"],
+      tags: ["Дизайн UI/UX", "Электронная коммерция", "Мобильная версия"],
       category: "Web Design",
     },
     {
@@ -20,7 +20,7 @@ const PortfolioSection = () => {
       description: "Дизайн фитнес-приложения с интуитивным интерфейсом",
       image:
         "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
-      tags: ["Mobile", "Health", "iOS"],
+      tags: ["Мобильное приложение", "Здоровье", "iOS"],
       category: "Mobile App",
     },
     {
@@ -29,7 +29,7 @@ const PortfolioSection = () => {
       description: "Современный сайт для IT-компании с анимациями",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      tags: ["Corporate", "Animation", "Responsive"],
+      tags: ["Корпоративный", "Анимация", "Адаптивный"],
       category: "Web Design",
     },
     {
@@ -38,7 +38,7 @@ const PortfolioSection = () => {
       description: "Интерфейс для сложных данных с удобной навигацией",
       image:
         "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-      tags: ["Dashboard", "Data Viz", "SaaS"],
+      tags: ["Панель управления", "Визуализация данных", "SaaS"],
       category: "UI Design",
     },
     {
@@ -47,7 +47,7 @@ const PortfolioSection = () => {
       description: "Продающая страница с высокой конверсией",
       image:
         "https://images.unsplash.com/photo-1559028006-448665bd7c7f?w=600&h=400&fit=crop",
-      tags: ["Landing", "Startup", "Conversion"],
+      tags: ["Лендинг", "Стартап", "Конверсия"],
       category: "Web Design",
     },
     {
@@ -56,7 +56,7 @@ const PortfolioSection = () => {
       description: "Комплексная система компонентов для продуктовой команды",
       image:
         "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=600&h=400&fit=crop",
-      tags: ["Design System", "Components", "Figma"],
+      tags: ["Дизайн-система", "Компоненты", "Figma"],
       category: "System Design",
     },
   ];
