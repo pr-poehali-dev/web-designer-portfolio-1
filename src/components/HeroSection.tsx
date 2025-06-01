@@ -33,24 +33,22 @@ const HeroSection = () => {
               <div className="inline-flex items-center gap-3 px-4 py-2 bg-gray-900/5 backdrop-blur-sm rounded-full border border-gray-200/50 mb-8">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                 <span className="premium-text text-sm text-gray-600">
-                  Available for projects
+                  Доступна для новых проектов
                 </span>
               </div>
             </div>
 
             <div className="text-reveal">
               <h1 className="hero-title text-7xl lg:text-8xl text-gray-900 mb-6">
-                Anna
-                <span className="block text-gray-400 italic">Designer</span>
+                Анна
+                <span className="block text-gray-400 italic">Дизайнер</span>
               </h1>
             </div>
 
             <div className="text-reveal">
               <p className="premium-text text-xl text-gray-600 max-w-lg leading-relaxed">
-                Crafting sophisticated digital experiences that bridge
-                <span className="italic"> beauty</span> and{" "}
-                <span className="italic">functionality</span>
-                for forward-thinking brands.
+                Создаю изысканные цифровые решения, которые объединяют
+                функциональность и эстетику для современного бизнеса
               </p>
             </div>
 

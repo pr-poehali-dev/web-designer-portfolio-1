@@ -6,7 +6,7 @@ const ContactSection = () => {
   const contactInfo = [
     {
       icon: "Mail",
-      title: "Email",
+      title: "Почта",
       value: "anna.designer@example.com",
       link: "mailto:anna.designer@example.com",
     },
@@ -18,7 +18,7 @@ const ContactSection = () => {
     },
     {
       icon: "MapPin",
-      title: "Локация",
+      title: "Местоположение",
       value: "Москва, Россия",
       link: null,
     },

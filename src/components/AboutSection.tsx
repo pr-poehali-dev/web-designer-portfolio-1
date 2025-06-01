@@ -4,16 +4,16 @@ import Icon from "@/components/ui/icon";
 
 const AboutSection = () => {
   const skills = [
-    "UI/UX Design",
+    "UI/UX Дизайн",
     "Figma",
     "Adobe XD",
     "Sketch",
     "Photoshop",
     "Illustrator",
-    "Prototyping",
+    "Прототипирование",
     "Wireframing",
-    "User Research",
-    "Design Systems",
+    "Исследования пользователей",
+    "Дизайн-системы",
     "HTML/CSS",
     "JavaScript",
   ];
