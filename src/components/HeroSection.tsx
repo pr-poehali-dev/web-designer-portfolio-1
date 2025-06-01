@@ -58,7 +58,7 @@ const HeroSection = () => {
                   size="lg"
                   className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-4 rounded-full premium-text font-medium"
                 >
-                  View Selected Works
+                  Посмотреть работы
                   <Icon name="ArrowRight" size={18} />
                 </Button>
                 <Button
@@ -66,7 +66,7 @@ const HeroSection = () => {
                   size="lg"
                   className="text-gray-600 hover:text-gray-900 px-8 py-4 premium-text font-medium"
                 >
-                  Download Resume
+                  Скачать резюме
                   <Icon name="Download" size={18} />
                 </Button>
               </div>
