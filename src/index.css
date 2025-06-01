@@ -88,6 +88,21 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+  /* Hide scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for Firefox */
+  * {
+    scrollbar-width: none;
+  }
+
+  /* Hide scrollbar for IE and Edge */
+  * {
+    -ms-overflow-style: none;
+  }
 }
 
 @layer base {
@@ -97,5 +112,20 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Hide scrollbar for webkit browsers */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for Firefox */
+  * {
+    scrollbar-width: none;
+  }
+
+  /* Hide scrollbar for IE and Edge */
+  * {
+    -ms-overflow-style: none;
   }
 }
