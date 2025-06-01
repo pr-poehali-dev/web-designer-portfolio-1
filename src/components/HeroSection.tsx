@@ -105,8 +105,12 @@ const HeroSection = () => {
 
               <div className="absolute bottom-8 left-8 bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-lg float-animation">
                 <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 bg-green-500 rounded-lg flex items-center justify-center">
-                    <Icon name="TrendingUp" size={16} className="text-white" />
+                  <div className="w-8 h-8 bg-white border-2 border-gray-200 rounded-lg flex items-center justify-center">
+                    <Icon
+                      name="TrendingUp"
+                      size={16}
+                      className="text-gray-900"
+                    />
                   </div>
                   <div>
                     <div className="premium-text text-sm font-medium text-gray-900">
