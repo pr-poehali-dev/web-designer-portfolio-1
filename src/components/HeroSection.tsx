@@ -110,7 +110,7 @@ const HeroSection = () => {
                   </div>
                   <div>
                     <div className="premium-text text-sm font-medium text-gray-900">
-                      50+ Projects
+                      50+ Проектов
                     </div>
                     <div className="premium-text text-xs text-gray-500">
                       Completed
