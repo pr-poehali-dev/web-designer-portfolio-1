@@ -113,7 +113,7 @@ const HeroSection = () => {
                       50+ Проектов
                     </div>
                     <div className="premium-text text-xs text-gray-500">
-                      Completed
+                      Завершено
                     </div>
                   </div>
                 </div>
