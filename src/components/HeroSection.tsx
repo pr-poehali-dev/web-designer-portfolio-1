@@ -126,9 +126,6 @@ const HeroSection = () => {
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col items-center gap-2 opacity-60">
-          <span className="premium-text text-xs text-gray-500 rotate-90 origin-center mb-8">
-            SCROLL
-          </span>
           <div className="w-px h-16 bg-gradient-to-b from-gray-400 to-transparent"></div>
         </div>
       </div>
